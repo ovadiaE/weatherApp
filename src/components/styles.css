@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+body{
+    background-color: grey;
+}
+.main{
+    width: 700px;
+    border-radius: 15px;
+    background-color: #01579b;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header{
+    background-color: #424242;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 28px;
+    border-radius: 15px;
+    font-family: 'Recursive', sans-serif;
+
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.day{
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.temp{
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+}
+
+.sunTiming{
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 16px;
+
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+}
+.temperature{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sun{
+    display: flex;
+    justify-content: space-between;
+}
+
